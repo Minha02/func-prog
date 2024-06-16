@@ -14,10 +14,10 @@ object act1 {
   def totaltime(ed:Int, td:Int) :Int = easytime(ed) + tempotime(td)
 
   def main(args:Array[String]): Unit = {
-    println(areaOfCircle(5))
-    println(toFahrenheit(35))
-    println(vofSphere(5))
-    println(totalprice(60))
-    println(totaltime(2 + 2, 3))
+    println("Area of Circle(radius = 5):" + areaOfCircle(5))
+    println("Temperature in Fahrenheit:" +toFahrenheit(35))
+    println("Volume of Sphere (radius=5): "+vofSphere(5))
+    println("Total price of 60 books: "+totalprice(60))
+    println("Total time taken : "+totaltime(2 + 2, 3))
   }
 }
