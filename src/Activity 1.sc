@@ -13,3 +13,8 @@ def totalprice(n:Int):Double = priceofbooks(n) + shipcost(n)
 
 totalprice(60)
 
+def easytime(d: Int): Int = d * 8
+def tempotime(d:Int):Int = d*7
+def totaltime(ed:Int, td:Int) :Int = easytime(ed) + tempotime(td)
+
+totaltime(2+2,3)
