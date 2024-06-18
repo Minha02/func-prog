@@ -3,9 +3,9 @@ object act1 {
 
   def toFahrenheit(temp:Double):Double = temp*1.8 +32.00
 
-  def vofSphere(r:Double):Double = r*r*r*(4/3)*math.Pi
+  def vofSphere(r:Double):Double = r*r*r*(4.0/3.0)*math.Pi
 
-  def priceofbooks(nofbooks:Int):Double = 24.95*nofbooks*0.4
+  def priceofbooks(nofbooks:Int):Double = 24.95*nofbooks*0.6
   def shipcost(n:Int):Double = 3 + 0.75*(n-50)
   def totalprice(n:Int):Double = priceofbooks(n) + shipcost(n)
 
